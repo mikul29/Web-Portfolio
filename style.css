@@ -117,9 +117,17 @@ body
 {
   color: #fff !important;
 }
-.me
+.me h3
 {
   margin-top: 20px;
+}
+.me p 
+{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+  color: rgb(43, 43, 43);
 }
 .education
 {
@@ -185,6 +193,30 @@ body
   z-index: 1;
 }
 
+.about .btn
+{
+  padding: 10px 25px 10px 25px;
+  margin: 5px;
+  border-radius: 30px;
+  border: 2px solid rgb(0, 0, 0);
+  background: transparent;
+  color: #000;
+}
+.about .btn:focus
+{
+  box-shadow: none !important;
+}
+.about .btn:hover
+{
+  border: 2px solid #000 !important;
+  background: #000 !important;
+  transition: 0.5s;
+}
+.about .btn .fa
+{
+margin-right: 10px;
+}
+
 /*---------Resume----------*/
 .resume
 {
@@ -199,18 +231,10 @@ body
 {
   list-style-type: none;
   position: relative;
+  margin-right: -10;
+  margin-left: -50px; 
 }
-.timeline:before
-{
-  content: '';
-  background: #555;
-  display: inline-block;
-  position: absolute;
-  left: 29px;
-  width: 2px;
-  height: 100%;
-  z-index: 1;
-}
+
 
 .timeline li{
   margin-top: 20px;
@@ -244,29 +268,27 @@ body
   border-top-left-radius: 5px;
   border-bottom-right-radius: 5px;
 }
-.timeline li:before
-{
-  content: '';
-  background: #fff;
-  display: inline-block;
-  position: absolute;
-  border-radius: 50%;
-  border: 3px solid #000;
-  left: 20px;
-  width: 20px;
-  height:20px;
-  z-index: 1;
+audio {
+  position: relative;
+  position: sticky;
+  background-size: auto;
 }
 /*-------Work Experience--------*/
 .work-box 
 {
   background: #f9f9f9;
   padding: 10px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 10px;
+  margin-bottom: 20px;
   border-top-right-radius: 40px;
   border-bottom-left-radius: 40px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
+.work-title
+ {
+margin-top: 20px;
+ }
 .work-box .fa-bars{
   margin: 0 10px;
   font-size: 20px;
@@ -285,7 +307,7 @@ body
 .work-box:hover{
   background: #000;
   color: #fff;
-  border-top-right-radius: 00px;
+  border-top-right-radius: 0px;
   border-bottom-left-radius: 0px;
   border-top-left-radius: 40px;
   border-bottom-right-radius: 40px;
@@ -296,6 +318,10 @@ body
 {
   color: #fff;
 } 
+.dis
+{
+  margin: auto;
+}
 /*---------Contact-----------*/
 .contact
   {
@@ -315,28 +341,6 @@ body
 {
 padding: 10px;
 font-size: 40px;
-}
-.contact .btn
-{
-  padding: 10px 25px 10px 25px;
-  margin: 5px;
-  border-radius: 30px;
-  border: 2px solid #fff;
-  background: transparent;
-}
-.contact .btn:focus
-{
-  box-shadow: none !important;
-}
-.contact .btn:hover
-{
-  border: 2px solid #000 !important;
-  background: #000 !important;
-  transition: 0.5s;
-}
-.contact .btn .fa
-{
-margin-right: 10px;
 }
 .footer
 {

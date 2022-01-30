@@ -95,10 +95,7 @@ body
 {
   background-color: #000;
 }
-.navbar-brand
-{
 
-}
 .nav-bar .fa-bars
  {
    font-size: 35px;
@@ -218,10 +215,7 @@ margin-right: 10px;
 }
 
 /*---------Projects----------*/
-.section_header
-{
 
-}
 .portfolio 
 {
   background-color: #f9f9f9;
@@ -431,6 +425,13 @@ margin-top: 20px;
 {
   color: #fff;
 } 
+.work-experience-description
+{
+  padding-left: 40px;
+  text-align: left;
+  
+}
+
 .dis
 {
   margin: auto;

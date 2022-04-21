@@ -320,7 +320,8 @@ margin-right: 10px;
 /*---------Resume----------*/
 .resume
 {
-  background-color: rgb(255, 255, 255);
+  background-color: #f9f9f9;
+  
 }
 .resume
 {
@@ -378,7 +379,7 @@ audio {
 /*-------Work Experience--------*/
 .work
 {
-  background-color: #f9f9f9;
+  background-color: rgb(255, 255, 255);
  padding-top: 10px;
 }
 .work-box 
